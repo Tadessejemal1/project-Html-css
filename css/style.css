@@ -1,24 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-ul {
+  }
+  
+  body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #page-wrapper {
+    position: relative;
+  }
+  
+  li {
     list-style: none;
-}
-a {
+  }
+  
+  a {
+    color: #000;
     text-decoration: none;
-}
-
-#title {
-    display:flex
-}
-
-.container {
+  }
+  
+  /** global classes styling **/
+  
+  .container {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
   }
+  
   .btn {
     padding: 0 20px;
     height: 40px;
@@ -112,6 +123,7 @@ a {
       flex-direction: column;
     }
   }
+  
   #hero {
     display: flex;
     flex-direction: column;
@@ -268,27 +280,27 @@ a {
       margin: 0 auto;
       margin-bottom: 10px;
     }
-    footer {
-        margin-top: 30px;
-        background-color: #ddd;
-        padding: 20px;
-      }
-      
-      footer > ul {
-        display: flex;
-        justify-content: flex-end;
-      }
-      
-      footer > ul > li {
-        padding: 0 10px;
-      }
-      
-      footer > span {
-        margin-top: 5px;
-        display: flex;
-        justify-content: flex-end;
-        font-size: 0.9em;
-        color: #444;
-      }
-      
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
   }
